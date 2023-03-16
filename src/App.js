@@ -1,6 +1,7 @@
 import './App.css';
 import {useState, useEffect} from 'react';
 import axios from 'axios';
+import DisplayNews from './DisplayNews';
 
 const API_KEY = "WNiS9hiaDj828hcgupjd14r0Xees78WR";
 
