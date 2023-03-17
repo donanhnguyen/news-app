@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Didact Gothic';
 }
 
 .App-logo {
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.display-news-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.display-news-container h1 {
+  font-size: 1.5rem;
+}
+.display-news-container p {
+  font-size: 1.2rem;
+}
+.single-story {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  color: rgb(0, 140, 255);
+  margin: 2px;
+  width: 300px;
+}
+.single-story:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+.single-story img {
+  width: 100%;
+  min-height: 180px;
 }

@@ -12,7 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={ <App/> }></Route>
-        <Route path='/displayNews' element={ <DisplayNews/> }></Route>
+        <Route path='/displayNews/:countryCode' element={ <DisplayNews/> }></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
