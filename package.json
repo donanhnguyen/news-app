@@ -2,7 +2,7 @@
   "name": "news-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thedonwind69.github.io/news-app",
+  "homepage": "https://thedonwind69.github.io/news-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
