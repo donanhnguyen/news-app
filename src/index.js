@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import DisplayNews from './DisplayNews';
+import DisplayNewsStory from './DisplayNewsStory'
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path='/' element={ <App/> }></Route>
         <Route path='/displayNews/:countryCode' element={ <DisplayNews/> }></Route>
+        <Route path='/displayNews/:countryCode/:storyId' element={ <DisplayNewsStory/> }></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
