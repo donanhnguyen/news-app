@@ -1,5 +1,4 @@
 import './App.css';
-import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 const API_KEY = "WNiS9hiaDj828hcgupjd14r0Xees78WR";
